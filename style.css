@@ -1,0 +1,77 @@
+@font-face {
+font-family: Ubuntu;
+src: url("./fonts/ubuntu.ttf")
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    gap: 10vh;
+    font-family: Ubuntu;
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.8rem;
+    font-size: 2.5rem;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    background-color: #3b3a3a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.description {
+    font-size: 1.5rem;
+    width: 100vh;
+}
+
+.list-of-tech {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.profile-pic {
+    width: 50vh;
+    border-radius: 3px;
+}
+
+.projects-title {
+    font-size: 2rem;
+}
+
+.card {
+    border-radius: 5px;
+    height:
+}
+
+.card-img {
+    width: 100%
+}
