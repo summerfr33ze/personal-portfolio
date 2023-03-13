@@ -56,7 +56,10 @@ main {
 
 .icon {
     width: 100px;
+
 }
+
+
 
 .profile-pic {
     width: 50vh;
@@ -86,6 +89,12 @@ main {
     width: 15vw;
     max-width: 250px;
     margin-bottom: 100px;
+    padding: 5px;
+}
+
+.card:hover {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 .card-img {
@@ -93,3 +102,41 @@ main {
     height: 23vh;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 2500px) {
+    header {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.5rem;
+        padding: 2px;
+    }
+
+    .project-card-container {
+        gap: 20px;
+    }
+
+    .icon {
+        width: 25px; 
+    }
+
+    .profile-container {
+        flex-direction: column;
+
+    }
+
+    main {
+        gap: 25px;
+    }
+
+    .list-of-tech {
+        gap: 5px;
+    }
+}
