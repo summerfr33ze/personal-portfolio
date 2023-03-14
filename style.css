@@ -3,11 +3,9 @@ font-family: Ubuntu;
 src: url("./fonts/ubuntu.ttf")
 }
 
-html, body {
-    
-}
 
 body {
+    min-height: 100vh;
     display:flex;
     flex-direction: column;
     gap: 10vh;
