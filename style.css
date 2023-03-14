@@ -111,30 +111,3 @@ a {
     }
 }
 
-@media (max-width: 1100px) {
-    header {
-        font-size: 1.5rem;
-        padding: 3px;
-    }
-
-    .project-card-container {
-        gap: 25px;
-    }
-
-    .icon {
-        width: 50px; 
-    }
-
-    .profile-container {
-        flex-direction: column;
-
-    }
-
-    main {
-        gap: 50px;
-    }
-
-    .list-of-tech {
-        gap: 10px;
-    }
-}
