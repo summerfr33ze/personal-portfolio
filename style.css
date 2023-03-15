@@ -111,3 +111,11 @@ a {
     }
 }
 
+@media (orientation: portrait) {
+    body {
+        width: 100vw;
+    }
+
+     
+
+}
