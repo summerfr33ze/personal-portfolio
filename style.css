@@ -15,7 +15,6 @@ body {
 }
 
 header {
-    margin: -10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,12 +38,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .description {
     font-size: 1.5rem;
-    width: 100vh;
+    width: 25vw;
 }
 
 .list-of-tech {
@@ -112,10 +111,36 @@ a {
 }
 
 @media (orientation: portrait) {
-    body {
-        width: 100vw;
+    header{
+        height: 2rem;
+        font-size: 17px;
     }
 
-     
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .description {
+        width: 90vw;
+    }
+
+    .icon {
+        width: 40px;
+    }
+
+    .about { 
+        display: none
+     }
+
+    .project-card-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card {
+        width: 40vw;
+        margin-bottom: 0;
+    }
+    
 
 }
